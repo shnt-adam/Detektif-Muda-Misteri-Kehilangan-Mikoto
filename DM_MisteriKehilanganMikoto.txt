@@ -1,0 +1,804 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <title>Detektif Muda: Misteri Kehilangan Mikoto</title>
+  <style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+  }
+
+  /* Menu kiri */
+  .menu {
+    width: 10%;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+    padding: 15px 5px;
+  }
+
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .menu ul li {
+    margin: 6px 0;
+  }
+
+  .menu ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    font-size: 14px;
+  }
+
+  .menu ul li a:hover {
+    background-color: #444;
+  }
+
+  /* Tajuk penuh */
+  h1{
+    font-size: 50px;
+    color: white;
+  }
+
+img {
+      display: block;
+      margin: 20px auto;     /* gambar betul-betul di tengah */
+      max-width: 400px;      /* elak gambar terlalu besar */
+    }
+
+
+  /* Kandungan utama */
+  .content {
+    margin-left: 10%;
+    width: 90%;
+    min-height: 100vh;
+    padding: 30px;
+
+    /* BACKGROUND IMAGE */
+    background-image: url("bcMikoto.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    color: white; /* teks putih */
+    border-left: 3px solid white;
+    text-allign: center;
+  }
+  
+  /* Tajuk bab */
+  .chapter h2 {
+    color: white;      /* putih */
+    margin-top: 40px;  /* jarak dengan atas */
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
+
+  /* Isi bab */
+  .chapter p {
+    text-align: justify;
+    line-height: 1.6;
+  }
+</style>
+
+</head>
+<body>
+  <!-- Menu kiri -->
+  <div class="menu">
+    <h2>Menu</h2>
+    <ul>
+      <li><a href="#muka">Muka Hadapan</a></li>
+      <li><a href="#watak">Watak Perwatakan</a></li>
+      <li>Kandungan:
+        <ul>
+          <li><a href="#bab1">Bab 1</a></li>
+          <li><a href="#bab2">Bab 2</a></li>
+          <li><a href="#bab3">Bab 3</a></li>
+          <li><a href="#bab4">Bab 4</a></li>
+          <li><a href="#bab5">Bab 5</a></li>
+          <li><a href="#bab6">Bab 6</a></li>
+          <li><a href="#bab7">Bab 7</a></li>
+          <li><a href="#bab8">Bab 8</a></li>
+          <li><a href="#bab9">Bab 9</a></li>
+          <li><a href="#bab10">Bab 10</a></li>
+          <li><a href="#bab11">Bab 11</a></li>
+          <li><a href="#bab12">Bab 12</a></li>
+          <li><a href="#bab13">Bab 13</a></li>
+          <li><a href="#bab14">Bab 14</a></li>
+          <li><a href="#bab15">Bab 15</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <!-- Kandungan -->
+  <div class="content">
+    <h1>Detektif Muda: Misteri Kehilangan Mikoto</h1>
+    <img src="fpMikoto.png" alt="Muka Hadapan">
+
+    <div id="watak" class="chapter">
+      <h2>Watak Perwatakan</h2>
+      <p><b>Kaito</b> – Pemimpin kumpulan, bijak dan berani.<br>
+         <b>Yui</b> – Analitik dan tenang, pakar strategi.<br>
+         <b>Haru</b> – Penuh semangat, pakar teknikal.<br>
+         <b>Rina</b> – Penyayang tetapi tegas, pendorong moral.<br>
+         <b>Satoshi</b> – Tenang, pemerhati yang tajam.<br>
+         <b>Mikoto</b> – Mempunyai ikatan misteri dengan kuasa lama.</p>
+    </div>
+
+    <!-- Bab 1 hingga 15 -->
+    <div id="bab1" class="chapter">
+      <h2>Bab 1 – Hilang?</h2>
+      <p>Pagi itu, matahari Kamakura memancarkan cahaya keemasan di celah pohon sakura yang mula berkembang. Angin musim bunga meniup lembut, membawa aroma laut yang segar dari pantai Shichirigahama. Burung-burung camar terbang rendah, seakan mengiringi langkah pelajar-pelajar yang menuju ke Sekolah Menengah Kamakura Minami.
+
+Kaito berjalan santai sambil menyangkutkan beg galas hitamnya di bahu kiri. Wajahnya yang sedikit mengantuk jelas menunjukkan dia tidak cukup tidur semalam.
+
+Kaito: “Urgh… aku sumpah, kerja rumah matematik tu macam perang dunia.”
+Yui: “Itu sebab kau tunggu sampai malam baru nak buat. Dah la main game dulu.”
+
+Yui, gadis berkaca mata dengan rambut hitam sebahu, melangkah di sisi Kaito sambil memegang buku nota tebal. Dia antara pelajar paling bijak di kelas mereka, tapi juga paling cerewet tentang disiplin.
+
+Kaito: “Eh, jangan salahkan aku. Level boss tu memang susah.”
+Yui: “Boss game atau boss cikgu matematik?”
+
+Kaito tergelak kecil. Dari arah belakang, tiga lagi rakan mereka menyusul. Haru, si tinggi lampai berkaca mata dengan rambut perang pucat, melangkah malas sambil menyuap roti kacang merah. Rina, gadis berambut pendek dengan hoodie biru, berjalan sambil memerhati skrin telefon. Satoshi, lelaki berketinggian sederhana yang lebih suka berdiam diri .
+
+Mereka tiba di pintu pagar sekolah. Bunyi loceng pagi bergema. Dalam hiruk pikuk pelajar, seseorang melambai ke arah mereka, Mikoto. Gadis itu berlari-lari kecil, rambut hitam panjangnya berkibar, sambil memegang segulung kertas lama.
+
+Mikoto: “Kaito! Yui! Korang kena tengok ni!”
+Kaito: “Apa tu? Kau nampak bersemangat semacam.”
+
+Mikoto membuka gulungan itu, menampakkan peta lama.
+
+Mikoto: “Aku jumpa peta lama kawasan Shinagawa. Ada tanda pelik dekat pelabuhan lama. Nanti aku cerita lepas sekolah.”
+
+Kaito mengangkat kening. “Peta pelik” bukan perkara luar biasa bagi Mikoto, dia terkenal dengan sikap yang suka menjejaki misteri kecil-kecilan. Tapi kata-katanya pagi itu terasa berbeza… seolah-olah ada sesuatu yang penting.
+
+Petang itu
+Langit sudah mula gelap ketika Kaito dan Yui menunggu Mikoto di pintu belakang sekolah. Tapi Mikoto tak muncul-muncul.
+
+Haru: “Korang rasa dia dah balik dulu ke?”
+Rina: “Tak. Dia mesej aku kata nak ambil sesuatu dari rumahnya dulu.”
+
+Mereka memutuskan untuk berjalan ke arah lorong kecil yang biasanya digunakan Mikoto untuk pulang. Di situ, bau laut lebih kuat, dan angin bertiup dingin.
+
+Tiba-tiba, Kaito perasan sesuatu di tanah — reben merah, basah oleh titisan air hujan yang baru mula turun.
+
+Kaito: “Ini… reben Mikoto.”
+
+Seketika, semua terdiam. Di hujung lorong, pintu besi tua sedikit terbuka, berdecit perlahan ditiup angin. Dari dalamnya, hanya gelap pekat.
+
+Kaito melangkah setapak ke hadapan…
+</p>
+    </div>
+
+    <div id="bab2" class="chapter">
+      <h2>Bab 2 – Reben Merah di Lorong Gelap</h2>
+      <p>Angin petang menyapu dingin lorong-lorong sempit Kamakura, membawa bersama aroma laut dan bunyi sayup deruan ombak. Matahari sudah condong, dan bayang bangunan berderet seperti dinding hitam yang memerangkap cahaya terakhir hari itu.
+
+Kaito berdiri tegak dan dia memegang reben merah yang ditemuinya itu. Warna merahnya masih terang walaupun sedikit kotor, seolah-olah baru sahaja jatuh.
+
+“Ini memang reben Mikoto…” bisik Rina, menutup mulutnya dengan tangan. “Aku pernah nampak dia pakai masa latihan kelab minggu lepas.”
+
+Yui melutut, memeriksa tanah yang lembap. “Ada kesan tapak kaki… tapi pelik, coraknya tak sama dengan kasut Mikoto. Tapaknya lebih lebar… mungkin lelaki?” Dia mengerutkan dahi sambil meneliti kesan yang menuju ke arah lorong belakang yang gelap.
+
+Haru menelan air liur. “Kita… nak ikut ke?” Suaranya serak, separuh bimbang, separuh teruja.
+
+Kaito menatap lorong itu. Ia sempit, hanya cukup untuk dua orang berjalan seiring. Lampu jalan di hujung lorong berkelip-kelip, seperti hampir padam. Bau hanyir bercampur asap rokok memenuhi udara.
+
+“Kita tak ada pilihan,” jawab Kaito akhirnya. “Kalau kita biar sekarang, kita mungkin hilang jejak terus.”
+
+Mereka mula melangkah perlahan. Langkah kasut bergema di antara dinding batu yang lembap. Setiap bunyi titisan air dari paip lama kedengaran jelas dalam keheningan itu.
+
+Tiba-tiba Yui berhenti.
+“Korang dengar tak?” bisiknya.
+
+Mereka semua terdiam. Dari kejauhan, ada bunyi seperti sesuatu diseret di atas tanah, diikuti bunyi pintu besi berdecit.
+
+Kaito memberi isyarat tangan untuk bergerak perlahan. Mereka membelok ke satu simpang kecil, dan di situ, di tembok batu, ada coretan simbol aneh, bentuk bulatan dengan tiga garis condong di tengahnya. Simbol itu dilukis dengan cat hitam yang masih basah.
+
+“Aku tak pernah nampak simbol ni,” kata Haru sambil menyentuh cat yang belum kering. “Mungkin tanda geng?”
+
+Rina mengeluarkan telefon dan mengambil gambar. “Kita kena tunjuk ni pada ayah aku. Dia pernah kerja dengan polis, mungkin dia tahu.”
+
+Namun sebelum sempat mereka bergerak semula, bunyi tapak kaki bergema kuat dari arah belakang. Cepat, berat, dan semakin dekat.
+
+“Cepat, sembunyi!” bisik Kaito.
+
+Mereka berempat menyelinap ke celah pintu pagar yang sedikit terbuka. Nafas mereka kencang, dada berombak. Dari celahan besi, mereka nampak seorang lelaki berpakaian jaket kulit hitam, topi rendah menutupi muka, berjalan laju sambil membawa beg kanvas besar.
+
+Lelaki itu berhenti tepat di depan simbol cat hitam, mengusapnya dengan tangan, lalu melangkah masuk ke lorong yang lebih gelap.
+
+Mereka semua saling berpandangan, mata masing-masing penuh tanda tanya.
+
+Kaito menggenggam reben merah di tangannya. “Apa pun maksud simbol tu… aku rasa kita baru mula masuk ke dalam sesuatu yang jauh lebih besar daripada kehilangan Mikoto.”
+
+Di atas kepala mereka, lampu jalan berkelip sekali lagi… sebelum padam sepenuhnya.
+</p>
+    </div>
+
+    <div id="bab3" class="chapter">
+      <h2>Bab 3 – Pelabuhan Lama</h2>
+      <p>Keesokan paginya, bunyi loceng kuil di bukit Kamakura memecah kesunyian awal pagi. Kabus tebal dari laut menyelubungi bandar kecil itu, menjadikan seluruh suasana seperti lukisan kabur. Kaito berdiri di stesen bas, menunggu Rina, Yui, Satoshi dan Haru. Di tangannya masih tergenggam reben merah Mikoto, kini disimpan di dalam beg plastik kecil.
+
+“Kau yakin pelabuhan lama tu ada kaitan?” tanya Rina sebaik sahaja mereka berkumpul. Dia mengenakan jaket biru tebal, rambutnya terikat tinggi.
+
+Kaito mengangguk. “Aku tak boleh nak jelaskan sepenuhnya, tapi aku teringat sesuatu yang Mikoto pernah cakap dua minggu lepas… tentang dia nak cari ‘peta lama’ dekat kedai antik tepi pelabuhan.”
+
+Yui mengangkat kening. “Peta lama? Untuk apa?”
+
+“Itu yang aku tak tahu,” jawab Kaito, nada suaranya berat. “Tapi kalau kita jumpa kedai tu, mungkin kita dapat jawapan.”
+
+Bas tua berwarna hijau lumut tiba dengan bunyi enjin berkeriut. Mereka menaiki bas itu, duduk bersebelahan di bahagian belakang. Perjalanan ke pelabuhan lama memakan masa setengah jam, melalui jalan berliku yang dikelilingi pokok pain tinggi.
+
+Sampai di pelabuhan, bau laut masin dan bunyi camar segera menyambut mereka. Bangunan-bangunan kayu lama berdiri senget, papan-papan lantainya reput dimakan masa. Sebahagian kedai sudah tutup bertahun-tahun.
+
+“Kedai antik tu… macam mana nak cari?” tanya Haru, matanya melilau memerhati papan tanda usang.
+
+Mereka berjalan perlahan menyusuri lorong tepi dermaga. Di satu sudut, ada kedai kecil dengan papan tanda kayu tertulis “Nishimoto Antiques”. Cermin depannya penuh habuk, tetapi di dalam kelihatan berpuluh-puluh barangan lama seperti peta, jam poket dan patung seramik.
+
+Mereka melangkah masuk. Bunyi loceng pintu berdenting kecil.
+Seorang lelaki tua bertopi buluh menoleh dari belakang kaunter. Matanya tajam, tetapi senyumannya tipis.
+
+“Boleh saya bantu?” suaranya serak.
+
+Kaito mengatur langkah ke depan. “Kami mencari seorang pelajar perempuan, nama dia Mikoto. Dia pernah datang ke sini, mungkin dua minggu lepas. Dia tanya tentang peta lama.”
+
+Lelaki tua itu terdiam lama. Matanya memandang tepat ke arah Kaito, seolah-olah menimbang sesuatu. Kemudian dia berpaling, mengambil sesuatu dari rak bawah kaunter.
+
+Ia adalah gulungan peta usang, diikat dengan tali. Di hujung tali itu, terikat reben merah yang serupa dengan milik Mikoto.
+
+Rina ternganga. “Itu… itu memang reben dia!”
+
+Namun sebelum Kaito sempat bertanya, lelaki tua itu berbisik, nadanya penuh amaran:
+“Kalau kamu sayang nyawa, jangan jejak tempat yang ada dalam peta ini… kerana Mikoto mungkin bukan satu-satunya yang hilang di sana.”
+
+Dari luar, bunyi hon kapal bergema panjang, memecah kesunyian, seolah-olah memberi isyarat bahawa perjalanan mereka baru saja bermula.
+</p>
+    </div>
+
+    <div id="bab4" class="chapter">
+      <h2>Bab 4 – Rahsiah dalam Peta</h2>
+      <p>Hujan renyai mula turun ketika mereka keluar dari kedai Nishimoto Antiques. Peta itu kini berada di tangan Kaito, dibalut kain lusuh berbau hapak. Mereka mencari tempat teduh di sebuah pondok kayu lama di hujung dermaga untuk memeriksanya.
+
+Kaito membuka gulungan peta perlahan-lahan. Warna kertasnya sudah kekuningan, tepi-tepinya reput. Di tengah-tengah, jelas kelihatan peta daerah pesisir pantai Kamakura, tetapi ada sesuatu yang pelik, di bahagian hutan pesisir, terdapat tanda bulatan hitam, sama bentuk dengan simbol cat yang mereka jumpa di pagar rumah Mikoto.
+
+Rina mengerutkan dahi. “Simbol ni… sama dengan yang kat pagar rumah dia.”
+
+Yui menelan liur. “Kalau ini petunjuk, maksudnya Mikoto memang pergi ke tempat ni… tapi kenapa?”
+
+Haru menunjuk pada garisan kecil di tepi bulatan. “Tengok sini. Ada tulisan tangan, macam dalam tulisan Jepun lama. Aku tak berapa pasti maksudnya, tapi perkataan terakhir tu ‘禁地’  (kinchi) maksudnya kawasan larangan.”
+
+Kaito menggenggam peta itu kuat. “Kalau kawasan larangan, kenapa Mikoto nak ke sana?”
+
+Sebelum mereka sempat berbincang panjang, langkah kaki mendekat dari arah pelabuhan. Seorang lelaki berjaket hitam dan bertopi rendah melintasi mereka. Dia sempat menjeling peta itu sebelum terus berjalan ke arah bot-bot lama. Ada sesuatu pada cara lelaki itu bergerak — langkahnya senyap, terlalu terkawal.
+
+Rina berbisik, “Kau rasa dia ikut kita?”
+
+Kaito tidak menjawab. Dia hanya menggulung semula peta dan menyimpannya di dalam beg. “Kita balik dulu. Kita akan bincang tempat ini malam nanti di rumah aku.”
+
+Malamnya, di bilik Kaito, mereka membuka semula peta di atas meja. Cahaya lampu meja memantulkan bayang di dinding, menjadikan suasana semakin tegang.
+
+Kaito mengeluarkan telefon, memotret peta itu, dan cuba menyesuaikan lokasinya dengan Google Maps. Titik bulatan hitam itu terletak jauh di dalam hutan pesisir, hampir dengan tebing curam yang menghadap Lautan Pasifik.
+
+Yui mengetap bibir. “Tempat tu… aku pernah dengar cerita seram pasal hutan tu. Orang kampung panggil Hutan Kurokami. Ada yang kata ia penuh dengan kabus hitam pada waktu malam, dan siapa yang masuk jarang keluar.”
+
+Haru memandang Kaito, nada suaranya rendah. “Kalau Mikoto betul-betul ke sana… kita kena bersedia. Ini bukan sekadar kes orang hilang.”
+
+Tiba-tiba, bunyi ketukan perlahan kedengaran di tingkap. Semua berpaling serentak.
+
+Di luar, di sebalik hujan renyai, kelihatan sebilah pisau kecil tertusuk di bingkai tingkap, dengan sekeping kertas terlipat di hujungnya. Kaito membuka tingkap perlahan-lahan dan mengambil kertas itu.
+
+Tulisan di atasnya hanya berbunyi:
+“Jika kamu mencari Mikoto, bersedialah untuk menjadi mangsa seterusnya.”
+</p>
+    </div>
+
+    <div id="bab5" class="chapter">
+      <h2>Bab 5 – Jejak ke Hutan Kurokami</h2>
+      <p>Subuh di Kamakura diselimuti kabus tebal. Lautan di kejauhan kelihatan kelabu, dan bunyi deruan ombak bercampur dengan pekikan camar yang entah kenapa terasa suram.
+
+Kaito, Rina, Haru, Yui, dan Satoshi berkumpul di hadapan kedai teh kecil milik pakcik Kaito yang terletak berhampiran stesen. Masing-masing membawa beg galas berisi lampu suluh, bekalan air, roti, dan beberapa alat keselamatan.
+
+“Pastikan semua bateri lampu suluh penuh,” kata Kaito sambil memeriksa beg. “Kita akan ikut jalan lama pesisir yang jarang orang guna. Lebih cepat sampai ke hutan.”
+
+Satoshi mengangguk. “Tapi ingat, kalau betul tempat tu kawasan larangan, mungkin ada sebab. Jangan buat bising dan jangan sesat dari kumpulan.”
+
+Mereka mula berjalan mengikut laluan tanah merah yang membelok ke arah utara. Pokok-pokok pain di tepi jalan memanjang seperti dinding hijau yang menutup pandangan. Matahari hampir tak kelihatan di sebalik kabus.
+
+Selepas satu jam berjalan, mereka tiba di sebuah jambatan kayu usang yang melintasi sungai kecil. Airnya gelap, dan ada serpihan papan yang hanyut perlahan. Yui berhenti sebentar, memandang ke tepi jambatan.
+
+“Aku rasa… aku pernah tengok jambatan ni dalam mimpi,” bisiknya, wajahnya pucat.
+
+Rina menoleh. “Kau bergurau?”
+
+Yui menggeleng. “Dalam mimpi tu… ada seseorang berdiri di tengah jambatan, memanggil nama aku.”
+
+Satoshi menyampuk, cuba mengurangkan ketegangan. “Mungkin kebetulan. Jom, jangan buang masa.”
+
+Namun, ketika mereka menyeberang jambatan itu, bunyi papan berkeriut di belakang mereka membuat semua tidak terperanjat. Haru menoleh ke belakang, di hujung laluan, jauh di belakang mereka, kelihatan lelaki berjaket hitam semalam berdiri kaku, hanya memerhati. Mereka tidak menghiraukan lelaki itu dan berlalu pergi meneruskan perjalanan.
+Menjelang tengah hari, mereka akhirnya sampai ke pintu masuk Hutan Kurokami. Sebuah papan tanda kayu besar yang sudah condong tertulis amaran dalam huruf merah:
+
+DILARANG MASUK… Kawasan Risiko Tinggi.
+
+Pagar kawat berkarat hanya menutup separuh laluan, mudah dilangkah jika mahu.
+
+Kaito menarik nafas panjang. “Baiklah, kita masuk.”
+
+Langkah pertama ke dalam hutan itu seperti menembusi dunia lain. Bau tanah lembap bercampur dengan aroma dedaunan reput. Cahaya matahari hampir tidak menembusi kanopi pokok. Suasana senyap… terlalu senyap, yang hanya terdengar langkah mereka menyusuri lantai hutan.
+
+Mereka berjalan semakin dalam, mengikuti peta. Beberapa kali mereka ternampak kain putih lusuh tergantung di dahan rendah, seperti penanda arah… atau mungkin amaran.
+
+Tiba-tiba, dari celah pokok, Haru ternampak sesuatu… skarf merah yang masih kelihatan baru, tersangkut di ranting. Dia mengenalinya serta-merta.
+
+“Itu… seperti milik Mikoto!”
+
+Sebelum mereka sempat meraikan penemuan itu, bunyi ranting patah bergema di belakang. Semua berpaling serentak.
+
+Lelaki berjaket hitam kini berdiri hanya beberapa meter dari mereka, wajahnya masih tersembunyi di bawah topi. Perlahan-lahan, dia mengangkat tangan… menunjukkan kamera lama.
+
+Klik.
+
+Dia mengambil gambar mereka, lalu kemudian berlari masuk lebih dalam ke hutan.
+</p>
+    </div>
+
+    <div id="bab6" class="chapter">
+      <h2>Bab 6 – Pengejaran dalam Kabus</h2>
+      <p>Suara langkah lelaki itu bergema di antara pepohon, pantas dan tidak teratur. Tanpa sempat berfikir panjang, Kaito menjerit,
+
+“Kejar dia!”
+
+Mereka berlima terus berlari, menembusi kabus yang semakin pekat. Rina hampir terjatuh apabila kakinya tersadung akar pokok, namun Satoshi sempat menarik lengannya.
+
+Hutan Kurokami ternyata lebih luas dan berliku daripada yang mereka sangka. Setiap laluan seakan sama…pokok-pokok tua dengan batang berlumut, dedaun reput di bawah kaki, dan bunyi burung yang entah mengapa kedengaran seperti jeritan jauh.
+
+Yui yang berlari di belakang mula tercungap-cungap. “Kaito… kita tak tahu dia bawa kita ke mana. Kalau ni perangkap?”
+
+“Kita tak ada pilihan lain!” Kaito memintas, matanya tajam mengekori kelibat lelaki itu yang semakin kabur. “Kalau dia tahu tentang Mikoto, kita tak boleh lepaskan!”
+
+Bunyi ranting patah dan daun kering dihempas kaki semakin kuat. Mereka semakin hampir. Lelaki itu berpaling sebentar, seolah-olah sengaja mahu memastikan mereka masih mengejarnya. Dari wajahnya yang separuh kelihatan, ada secalit senyuman sinis.
+
+Tiba-tiba, Haru yang berada di hadapan berhenti mendadak. “Berhenti! Ada perangkap!”
+
+Di hadapan mereka, terdapat kawah tanah yang dalam, penuh dengan ranting tajam dan batu. Jelas sekali ia digali dengan sengaja. Lelaki berjaket hitam melompatinya dengan mudah dan terus menghilang di celah kabus.
+
+Satoshi memandang sekeliling. “Dia memang nak bawa kita ke sini… untuk melambatkan kita.”
+
+Rina mengangkat kening. “Atau untuk menghapuskan kita.”
+
+Kaito memikir sebentar sebelum membuat keputusan. “Kita belah dua kumpulan. Aku, Haru, dan Yui ikut laluan dia. Rina dan Satoshi, cuba cari jalan pintas dari arah barat seperti dalam peta lama tu.”
+
+Yui teragak-agak. “Kau yakin kita takkan sesat?”
+
+Kaito mengangguk, walau dalam hati dia tidak pasti. “Kita tak boleh biarkan dia lepas.”
+
+Perjalanan menjadi lebih sunyi apabila mereka terpisah. Bunyi kabus bergesel dengan dedaunan terasa seperti bisikan yang memanggil nama mereka. Yui memegang scarf merah Mikoto erat-erat di tangannya, seolah-olah itu talisman yang mampu melindungi mereka.
+
+Tak lama kemudian, Kaito terdengar sesuatu dari arah kiri. Dia memberi isyarat senyap dan mereka bergerak perlahan menghampiri.
+
+Namun, apa yang mereka temui membuat darah mereka berderau… sebuah pondok kayu usang yang tertutup separuh, dengan pintu bergoyang perlahan… dan dari dalam, terdengar suara perempuan yang lemah, memanggil,
+
+“Tolong… aku…”
+</p>
+    </div>
+
+    <div id="bab7" class="chapter">
+      <h2>Bab 7 – Pondok di Tengah Hutan</h2>
+      <p>Kabus dingin menyelubungi kawasan itu, membuatkan pondok usang di hadapan mereka kelihatan seolah-olah muncul dari mimpi buruk.
+
+Kaito memberi isyarat dengan jari di bibir, menyuruh Yui dan Haru senyap. Ketiga-tiga mereka mendekat, langkah kaki tenggelam dalam daun kering.
+
+Suara perempuan itu kedengaran lagi, kali ini lebih jelas… serak, lemah, tetapi mendesak.
+
+“Tolong… aku di sini…”
+
+Yui memandang Kaito dengan mata yang membesar. “Itu… Mikoto?” suaranya bergetar.
+
+Kaito mengetap bibir. “Jangan terburu-buru. Banyak orang boleh meniru suara…”
+
+Haru menyelit masuk ke sisi Kaito, memerhatikan celah dinding pondok. “Aku nampak cahaya lilin… dan bayang seseorang terikat di kerusi.”
+
+Kaito mengangguk. “Kita masuk, tapi hati-hati.”
+
+Mereka menghampiri pintu yang separuh terbuka. Engselnya berkarat, mengeluarkan bunyi nyaring ketika ditolak perlahan. Bau kayu reput bercampur dengan aroma besi berkarat memenuhi rongga hidung.
+
+Di dalam, lilin kecil menyala di atas meja rendah. Di tengah ruang, seorang perempuan duduk di kerusi, tangannya diikat dengan tali tebal, rambutnya kusut menutupi wajah.
+
+“Mi… Mikoto?” Yui berbisik.
+
+Perempuan itu mengangkat wajahnya perlahan. Matanya separuh terbuka, bibirnya pucat. “Kaito… Yui… tolong…”
+
+Yui melangkah ke hadapan, tetapi Kaito menahan bahunya. “Tunggu.”
+
+Dia memerhatikan sekeliling… tidak ada tingkap lain, hanya satu pintu di belakang pondok. Tali pada perempuan itu kelihatan terlalu kemas untuk ikatan tergesa-gesa.
+
+“Ada yang tak kena,” kata Kaito perlahan.
+
+Tiba-tiba, dari belakang pondok, bunyi papan lantai berkeriut kedengaran. Haru menoleh dan melihat bayang besar melintas di luar.
+
+Sebelum mereka sempat berbuat apa-apa, pintu belakang terbuka dengan kuat, dan lelaki berjaket hitam yang mereka kejar tadi melangkah masuk. Di tangannya, sebilah pisau panjang yang berkilat terkena cahaya lilin.
+
+“Selamat datang… penyibuk.” Senyumnya sinis. “Kau nak Mikoto? Kau kena lalu mayat aku dulu.”
+
+Kaito berdiri tegak, matanya tidak berkelip. “Kalau itu pilihan kau, aku takkan mundur.”
+
+Suasana pondok menjadi tegang. Kabus dari luar masuk perlahan-lahan, seolah-olah mahu menutup dunia luar dari pertembungan yang bakal berlaku.
+</p>
+    </div>
+
+    <div id="bab8" class="chapter">
+      <h2>Bab 8 – Pertempuran Terjadi</h2>
+      <p>Pisau di tangan lelaki berjaket hitam itu berkilau, memantulkan cahaya lilin yang bergoyang-goyang akibat angin yang meresap dari celah papan pondok.
+
+Kaito mencondongkan tubuh sedikit ke hadapan, kaki bersedia. “Yui, Haru… lindungi Mikoto.”
+
+Namun Yui tidak berganjak, matanya terikat pada wajah lelaki itu. “Siapa kau? Kenapa culik Mikoto?”
+
+Lelaki itu tersenyum nipis. “Culik? Oh tidak… aku cuma menjaga dia daripada kalian.”
+
+Tiba-tiba, dia meluru ke arah Kaito dengan kelajuan yang mengejutkan. Kilatan pisau menyambar udara, nyaris mengenai pipi Kaito.
+
+Kaito bergerak pantas, memusingkan tubuh untuk mengelak, lalu menendang lutut lelaki itu. Satu bunyi retak kecil kedengaran, tetapi lelaki itu hanya meringis tanpa mengendurkan serangan.
+
+Haru yang berada di sisi menarik keluar sebatang besi karat yang ditemuinya di sudut pondok, lalu menghalang serangan berikutnya. Dentuman besi dan keluli bergema di ruang sempit itu.
+
+Mikoto yang masih diikat kelihatan cuba bersuara, tetapi mulutnya terlalu kering. “Kaito… dia… bukan… orang biasa…”
+
+Kaito sempat menoleh sedikit. “Apa maksud kau?”
+
+Namun sebelum Mikoto dapat menjawab, lelaki itu menolak Haru dengan satu hentakan kuat, menghumbannya ke dinding. Lilin hampir terpadam, membuat pondok semakin gelap.
+
+Kaito tahu mereka tak boleh bertarung lama dalam ruang sempit itu. Dia membuat gerakan berpura-pura ke kiri, lalu menyambar lengan lelaki itu ke kanan. Pertarungan menjadi pergelutan rapat; bunyi nafas kasar dan hentakan kaki memenuhi ruang.
+
+Yui, dengan tekad yang semakin membara, mengeluarkan botol kaca kecil dari begnya — cecair ammonia yang selalu dibawanya untuk pertahanan diri. Tanpa ragu, dia memercikkan sedikit ke arah mata lelaki itu.
+
+Jeritan marah bergema. Lelaki itu terundur beberapa langkah, memegang matanya yang pedih.
+
+Inilah peluang mereka. Kaito menolak lelaki itu ke lantai, lalu menendang pisau jauh ke sudut. Haru segera mengambil pisau itu lalu memotong tali ikatan Mikoto.
+
+Namun, sebelum mereka sempat keluar dari pondok, lelaki itu bangkit semula, matanya kini merah menyala seperti tidak normal. Nafasnya berat, dan nada suaranya berubah menjadi lebih dalam.
+
+“Kau fikir… kau boleh lari?”
+
+Kabus di luar pondok semakin pekat, seolah-olah bergerak mengikuti kehendak lelaki itu.
+
+Kaito sedar… mereka kini berdepan sesuatu yang lebih daripada sekadar penculik manusia.
+</p>
+    </div>
+
+    <div id="bab9" class="chapter">
+      <h2>Bab 9 – Rahsia Lelaki Kabus</h2>
+      <p>Angin luar pondok meraung seperti ribuan bisikan. Kabus meresap masuk melalui celah dinding, mengelilingi lelaki itu seperti tirai hidup.
+
+Mikoto, yang kini bebas dari ikatan, berdiri sambil menggenggam lengannya yang lebam. “Dia… dia bukan manusia biasa, Kaito.”
+
+Kaito menunduk sedikit, mata tetap fokus pada lelaki tersebut. “Siapa dia sebenarnya?”
+
+Lelaki itu melangkah perlahan, setiap tapaknya membuat kabus di lantai berputar. “Nama aku… Kirisawa Renji. Aku adalah penjaga kabus terakhir dari Kuil Shiranami.”
+
+Yui mengerutkan kening. “Penjaga kabus? Apa kaitan kau dengan Mikoto?”
+
+Renji tersenyum nipis. “Mikoto… adalah pewaris kunci Shiranami. Darahnya mengandungi kod rahsia yang hanya boleh diaktifkan di gerbang kabus. Tanpa dia, gerbang itu kekal tertutup… dan dunia ini akan terus selamat.”
+
+Haru yang masih terhincut ke depan, menyampuk, “Dan kalau gerbang itu dibuka?”
+
+Renji memandangnya tajam. “Segala yang hidup akan diselubungi kabus abadi. Dunia manusia akan lenyap.”
+
+Kaito merasa bulu romanya berdiri. “Kalau begitu, kenapa culik Mikoto? Kalau benar kau nak selamatkan dunia, kenapa sembunyikan dia?”
+
+Renji menghela nafas panjang. “Kerana ada pihak lain yang sedang memburunya… kumpulan Aokami… yang mahu menggunakan kunci itu untuk kekuasaan.”
+
+Yui melangkah setapak ke hadapan. “Kalau begitu, kenapa tidak jelaskan dari awal? Kami sangkakan kau musuh.”
+
+Renji memandang ke arah Mikoto, matanya redup. “Kerana aku tak percaya pada sesiapa. Dan aku tak pasti… sama ada Mikoto benar-benar di pihakku.”
+
+Tiba-tiba, dentuman kuat memecah kesunyian malam. Dinding pondok bergegar, dan pintu tercabut dari engsel. Sekumpulan lelaki berjubah biru gelap melangkah masuk, mata mereka berkilau seperti mata serigala.
+
+Renji berbisik, “Mereka… Aokami.”
+
+Kabus mula berputar liar di sekeliling Renji, dan wajahnya kembali tegang. “Kaito… kalau kau mahu Mikoto selamat, bawa dia lari sekarang! Tinggalkan aku di sini.”
+
+Kaito mengetap gigi. Dia tahu ini bukan pilihan mudah… melawan Aokami bererti mempertaruhkan nyawa, tetapi meninggalkan Renji juga bererti kehilangan peluang memahami rahsia sebenar kehilangan Mikoto.
+
+Kabus semakin pekat. Suara tapak kaki Aokami mendekat.
+Kaito membuat keputusan yang akan mengubah takdir mereka semua.
+</p>
+    </div>
+
+    <div id="bab10" class="chapter">
+      <h2>Bab 10 – Serangan Aokami</h2>
+      <p>Dentuman pintu yang runtuh masih bergema di telinga mereka. Kabus yang pekat kini bercampur dengan debu kayu yang berterbangan.
+
+“Aokami tidak akan berhenti,” bisik Renji sambil menarik keluar sebilah pisau pendek dari pinggangnya. “Mereka datang untuk kunci.”
+
+Kaito menoleh kepada pasukannya. “Semua, kita bertahan! Yui, bawa Mikoto ke belakang. Haru, ikut aku.”
+
+Yui menggenggam tangan Mikoto yang masih pucat wajahnya. “Jangan lepaskan aku, Mikoto!” Mereka berlari ke belakang pondok.
+
+Tiga lelaki berjubah biru gelap itu menyerbu ke hadapan. Mata mereka memancarkan cahaya kehijauan, dan gerakan mereka terlalu pantas untuk manusia biasa.
+
+Renji menghunus pisaunya, memotong kabus di udara. Dengan setiap tebasan, kabus menjadi seperti dinding yang menghalang musuh.
+
+Namun salah seorang Aokami melepaskan senjata berbentuk rantai yang melilit kaki Kaito. Dia terjatuh. Haru segera mengeluarkan bilah lipat kecilnya, memotong rantai itu dengan satu libasan tajam.
+
+“Kaito, bangun! Mereka bukan main-main!” jerit Haru.
+
+Salah seorang Aokami mengangkat tangan, dan kabus di sekeliling mereka mula berputar menjadi pusaran yang menarik oksigen dari udara. Mikoto yang berada di belakang mula sukar bernafas.
+
+Yui menutup hidungnya dengan kain, matanya liar mencari jalan keluar. Dia terlihat sebuah tingkap kecil yang separuh terbuka. “Mikoto, sini!”
+
+Mereka memanjat keluar, namun dari kejauhan, dua lagi anggota Aokami sedang menunggu di luar.
+
+Di dalam pondok, Kaito dan Renji kini dikepung. Renji sempat berbisik kepada Kaito, “Kalau aku jatuh… kau yang kena bawa Mikoto ke Kuil Shiranami. Hanya di sana kunci ini boleh dilindungi.”
+
+Kaito menggenggam penumbuknya. “Aku takkan biarkan kau jatuh, Renji.”
+
+Tiba-tiba, Haru melompat ke tengah-tengah pertempuran sambil menebarkan serbuk putih dari dalam uncang kecil. Kabus di dalam pondok segera menipis.
+
+“Aku jumpa ini di dalam beg Mikoto,” kata Haru sambil tersengih. “Serbuk penahan kabus.”
+
+Renji tersenyum tipis. “Kau memang cepat belajar.”
+
+Namun, musuh tidak terhenti. Salah seorang Aokami menjerit sesuatu dalam bahasa kuno, dan dari kabus, muncul bayangan besar berbentuk serigala yang matanya menyala merah.
+
+Renji memandang Kaito. “Itu… pemanggilan Ōkami no Rei. Kita tak ada banyak masa!”
+
+Di luar pondok, Yui dan Mikoto sudah terperangkap di antara dua Aokami bersenjata tombak.
+
+Pertempuran bakal merebak menjadi kekacauan penuh.
+</p>
+    </div>
+
+    <div id="bab11" class="chapter">
+      <h2>Bab 11 – Pemanggilan Ōkami no Rei</h2>
+      <p>Angin kencang melanda seolah-olah ribut sedang membentuk dirinya di dalam pondok kecil itu. Kabus yang tadinya hanya mengaburkan penglihatan kini berpusar seperti taufan, dan di tengahnya berdiri seekor serigala gergasi dengan bulu hitam legam, taringnya berkilauan dalam cahaya bulan yang menembusi celah-celah bumbung.
+
+Suara raungannya memecah keheningan malam. Dinding kayu bergoyang, seakan hendak roboh.
+
+Kaito menelan liur. “Renji… benda itu bukan sekadar ilusi, kan?”
+
+Renji memandang tepat ke arah serigala itu, matanya penuh tekad. “Tidak. Itu roh penjaga Aokami, dan ia hanya muncul apabila ada darah yang akan dikorbankan.”
+
+Haru yang berada di belakang menarik nafas panjang. “Kalau begitu, kita hentikan sebelum ada darah yang tumpah.”
+
+Di luar pondok, Yui berdiri di hadapan Mikoto, kedua-dua tangannya menggenggam sebilah pisau kecil. Dua anggota Aokami yang menghalang mereka mula bergerak serentak.
+
+“Lari, Mikoto!” jerit Yui sambil menghalang tombak yang dihayunkan ke arahnya. Dentuman logam beradu memekakkan telinga.
+
+Mikoto berundur ke belakang, tetapi langkahnya terhenti apabila melihat di kejauhan… bayangan serigala gergasi itu muncul di celah-celah kabus, memandang tepat ke arahnya.
+
+“Mikoto!” Yui menjerit lagi, tetapi Mikoto seperti terpaku. Matanya mula berkilau dengan cahaya samar, seolah-olah ada sesuatu yang sedang merasukinya.
+
+Di dalam pondok, roh serigala itu mula merangkak ke hadapan. Setiap tapak kaki menghentak lantai sehingga serpihan kayu beterbangan.
+
+Renji melemparkan pisaunya ke udara, lalu menarik keluar gulungan kecil dari dalam jubahnya. Dia melafazkan mantera kuno sambil menggoreskan darah di tapak tangannya ke atas gulungan itu.
+
+Kertas tersebut terbakar dengan cahaya biru, membentuk lingkaran azimat di lantai.
+
+“Kaito! Umpan dia masuk ke dalam bulatan ni!”
+
+Kaito mengangguk, lalu melompat ke kiri dan kanan, menarik perhatian roh serigala itu. Nafasnya membakar kulit, dan matanya bersinar merah menyala.
+
+Tiba-tiba, pintu pondok terbuka dengan hentakan kuat—Yui menyerbu masuk sambil menarik Mikoto yang kelihatan lemah.
+
+“Dia… dia macam kena pengaruh sesuatu!” jerit Yui.
+
+Renji memandang Mikoto, wajahnya berubah serius. “Kalau kita tak hentikan roh ini sekarang, Mikoto akan jadi hosnya.”
+
+Haru yang sudah bersiap di sebelah Kaito menegakkan bilah lipatnya. “Kalau begitu, kita habiskan malam ini juga.”
+
+Serigala itu meraung lagi, lalu melompat ke arah mereka… dan cahaya azimat itu mula menyala lebih terang.
+</p>
+    </div>
+
+    <div id="bab12" class="chapter">
+      <h2>Bab 12 – Pengorbanan di Lingkaran Azimat</h2>
+      <p>Mikoto mula menguasai kuasa Shiranami. Pertempuran semakin sengit, dan buat pertama kali roh kabus itu menunjukkan kelemahan.</p>
+    </div>
+
+    <div id="bab13" class="chapter">
+      <h2>Bab 13 – Pengkhianatan Terbongkar</h2>
+      <p>Roh serigala itu terjun tepat ke tengah bulatan azimat, giginya terbuka luas, bersedia untuk membaham sesiapa sahaja di hadapan. Tetapi sebaik sahaja kakinya menyentuh cahaya biru yang terpancar dari lantai, letupan cahaya memancar, memaksa semua orang memejamkan mata.
+
+Jeritan roh itu kedengaran seperti gabungan lolongan serigala dan pekikan manusia yang sedang diseksa.
+
+Renji segera menekan kedua-dua tangannya ke lantai, melafazkan mantera dengan lebih pantas. “Tahan dia! Kalau bulatan ini pecah, kita semua akan mati!”
+
+Kaito melangkah ke hadapan, memintas serangan cakar yang cuba menembusi cahaya pelindung. Bilah pedangnya menghentam seperti kilat, tetapi setiap kali dia memotong, kabus hitam memancar dari luka itu, lalu menyembuhkannya semula.
+
+Haru pula mengekori dari sisi, membaling pisau kecil berturutan, menembusi mata dan bahu roh itu. Namun, tiada satu pun kelihatan memberi kesan kekal.
+
+Di tepi bulatan, Mikoto masih berdiri, tubuhnya menggigil. Cahaya samar dari matanya semakin kuat, dan setiap kali roh serigala itu meraung, dia seakan memberi respon, matanya berkelip-kelip seiring dengan denyutan cahaya azimat.
+
+Yui menggenggam bahu Mikoto. “Mikoto! Dengar suara aku! Jangan biarkan dia masuk!”
+
+Namun, Mikoto membalas dengan suara yang bukan miliknya dari dalam, bergema, dan menakutkan. “Kamu sudah terlambat.”
+
+Yui terkejut, namun menggenggam lebih erat. “Kalau kau nak ambil dia, kau kena lalu aku dulu!”
+
+Roh serigala itu, seakan memahami kata-kata Mikoto, mula mengaum lebih ganas. Cakar hitamnya memukul lantai, memercikkan api biru. Lingkaran azimat mula retak, cahaya birunya berkelip-kelip seperti lilin yang hampir padam.
+
+Renji menjerit, “Tak cukup kuasa! Seseorang perlu jadi pengorbanan untuk tutup portal ini sepenuhnya!”
+
+Kaito berpaling. “Pengorbanan? Maksud kau?”
+
+“Ya!” Renji memotong. “Seseorang mesti memberikan roh penjaga itu ‘tuan’ yang baharu… atau ia akan bebas!”
+
+Semua terdiam. Bunyi deru nafas roh itu semakin dekat, dan lingkaran azimat retak sedikit demi sedikit.
+
+Akhirnya, Mikoto yang separuh sedar melangkah ke hadapan. Matanya kembali normal, walau tubuhnya masih lemah.
+
+“Aku… akan jadi pengorbanan itu.”
+
+Yui menjerit, “Tak! Kau tak tahu apa yang kau buat!”
+
+Mikoto tersenyum tipis. “Kalau aku tak buat, semua orang akan mati. Lagipun… mungkin inilah sebab aku hilang selama ini.”
+
+Tanpa menunggu persetujuan sesiapa, Mikoto melangkah masuk ke dalam lingkaran azimat.
+
+Roh serigala itu memandangnya, lalu berhenti bergerak. Nafasnya yang berat menjadi perlahan.
+
+Renji segera menukar mantera, dan cahaya biru mula membungkus tubuh Mikoto dan roh itu sekali gus.
+
+Dalam detik terakhir sebelum cahaya meledak, Mikoto berpaling ke arah pasukannya. “Terima kasih… kerana mencari aku.”
+
+Letupan cahaya memancar, memadamkan semua bunyi di sekeliling.
+
+Apabila semua kembali jelas, lingkaran azimat sudah hilang, tiada roh serigala, tiada kumpulan Aokami dan Mikoto… turut lenyap.
+
+
+Bab 13 – Jejak Terakhir Mikoto
+
+Hening.
+Hanya bunyi titisan air dari bumbung pondok yang memecah kesunyian.
+
+Kaito berdiri tegak di tengah pondok itu, tangannya masih memegang bilah lipat yang sudah terkulai. Nafasnya terputus-putus, bukan kerana penat, tetapi kerana hatinya berat seperti batu.
+
+Yui duduk di lantai, memeluk lutut. Wajahnya tersembunyi di antara lengannya, bahunya bergetar menahan tangis.
+
+Renji menatap tanah di hadapannya, di mana lingkaran azimat tadi pernah bercahaya. Kini, hanya tinggal kesan terbakar di lantai pondok, melingkar seperti bekas luka yang takkan pernah hilang.
+
+Haru, yang biasanya paling banyak bercakap, kali ini senyap. Dia berdiri di tepi pintu pondok, memandang jauh ke arah langit malam yang kelam. “Dia… betul-betul pergi,” suaranya perlahan, nyaris tak kedengaran.
+
+Renji menarik nafas dalam, kemudian mengeluarkan sesuatu di lantai… seutas loket perak berbentuk bulan sabit. “Ini… jatuh masa dia melangkah masuk ke lingkaran tadi.”
+
+Yui mengangkat wajahnya yang basah dengan air mata. “Beri pada aku,” katanya dengan suara serak. Dia menggenggam loket itu erat-erat, seakan memegang sisa terakhir Mikoto yang masih ada di dunia ini.
+
+Kaito akhirnya bersuara, nada suaranya tegas walaupun matanya merah. “Kita belum selesai. Kalau roh itu masih ada di dunia lain bersama Mikoto, akan ada cara untuk membawanya kembali.”
+
+Renji menggeleng. “Kau tak faham… pengorbanan itu bersifat kekal. Dia kini menjadi ‘tuan’ kepada roh itu. Mereka terikat selama-lamanya.”
+
+Namun Kaito memandangnya dengan tatapan yang penuh keyakinan. “Kalau selama ini kita boleh menjejak Mikoto yang hilang, kita boleh menjejak dia lagi. Tak peduli berapa lama.”
+
+Haru berpaling dari pintu pondok. “Tapi untuk masuk ke dunia roh… kita perlukan lebih dari sekadar mantera. Kita perlukan kunci.”
+
+Renji menelan liur. “Dan aku rasa… Mikoto dah tinggalkan kunci itu untuk kita.”
+
+Semua memandangnya.
+
+Renji menunjukkan gulungan kain hitam yang terselit di dalam poket dalam jubahnya. “Dia sempat masukkan ini ke dalam poket aku masa aku sibuk mengawal azimat. Aku tak perasan sampai sekarang.”
+
+Yui membuka gulungan itu. Di dalamnya terdapat peta lama, dilukis dengan dakwat merah. Simbol-simbol pelik menghiasi tepiannya, dan di tengah-tengah peta, ada satu tanda besar berbentuk bulan sabit… sama seperti loket yang kini digenggam Yui.
+
+Yui menggenggam peta itu, matanya yang tadi penuh air mata kini mula bersinar dengan tekad. “Kalau ini yang dia tinggalkan, aku akan pastikan kita ikut jejak ini… sampai jumpa dia semula.”
+
+Kaito mengangguk. “Kita akan ke tempat ini. Tak kira apa yang menunggu.”
+
+Di luar pondok, angin malam bertiup, membawa bau tanah basah. Bulan sabit menggantung di langit, sama bentuknya dengan loket Mikoto.
+
+Pasukan itu, walaupun dengan hati yang hancur, mula melangkah keluar. Jejak Mikoto mungkin sudah pudar, tetapi semangat mereka untuk menemuinya kembali… baru sahaja menyala.
+</p>
+    </div>
+
+    <div id="bab14" class="chapter">
+      <h2>Bab 14 – Perjalanan ke Kuil Bulan Sabit</h2>
+      <p>Fajar baru menyingsing di ufuk timur ketika mereka meninggalkan kawasan pergunungan itu. Embun masih melekat di dedaun, memantulkan cahaya matahari pagi yang lembut. Peta lama yang ditinggalkan Mikoto kini berada di tangan Yui, dilipat kemas tetapi tidak pernah dilepaskannya walau sesaat.
+
+Kaito berjalan di hadapan, langkahnya pantas dan teratur. Dia tidak bercakap banyak, tetapi dari cara dia menggenggam sarung bilah lipatnya, jelas dia sedang bersedia untuk apa sahaja yang mungkin menanti di hadapan.
+
+Renji menyelak helaian kecil buku catatannya sambil berjalan, meneliti simbol-simbol pada peta. “Simbol bulan sabit ini… ia bukan sekadar penanda lokasi. Ia adalah segel. Kalau kita masuk tanpa memecahkannya, kita akan terperangkap di dalam.”
+
+Haru, yang membawa bekalan makanan dan air, merenung jauh ke hadapan. “Kau maksudkan macam perangkap?”
+
+Renji mengangguk. “Lebih dari itu. Ia adalah perlindungan kuno… yang biasanya hanya digunakan untuk menyembunyikan sesuatu yang amat berbahaya.”
+
+Yui menggigit bibir. “Kalau Mikoto tinggalkan peta ini, itu bermaksud dia mahu kita sampai ke sana… tapi juga mahu kita bersedia.”
+
+Mereka melalui sebuah hutan yang tebal, di mana sinar matahari sukar menembusi kanopi daun. Bunyi burung dan serangga bergaung di sekeliling, tetapi di antara bunyi alam itu, Kaito terdengar sesuatu yang lain… bunyi ranting patah.
+
+“Berhenti.” Dia mengangkat tangan.
+
+Semua membeku. Yui memegang erat peta, Renji menutup bukunya, Haru mengalihkan bekalan ke belakang untuk memudahkan pergerakan.
+
+Dari celah semak, muncul tiga sosok bertopeng hitam, masing-masing memegang senjata pendek. Mata mereka berkilau di sebalik topeng, penuh niat membunuh.
+
+“Penjejak…” bisik Renji. “Mereka pemburu bayaran. Kalau mereka di sini, ini bermakna kita sedang diikuti sejak semalam.”
+
+Kaito menghunus bilah lipatnya tanpa ragu. “Jangan biarkan seorang pun menjejak kita ke Kuil Bulan Sabit.”
+
+Pertarungan tercetus dengan pantas. Pedang Renji memancarkan kilatan cahaya pagi ketika menangkis serangan lawan. Yui, walaupun bukan petarung utama, menggunakan serbuk pembuta yang pernah dia simpan untuk kecemasan.
+
+Haru melompat ke sisi, menumbangkan salah seorang penjejak dengan serangan dari belakang, sementara Renji melukis simbol di udara, memanggil angin kencang untuk menghempas musuh ke tanah.
+
+Dalam masa kurang dua minit, semua penjejak itu tumbang… dua orang pengsan, satu terikat kemas dengan tali halus yang dibawa Haru.
+
+Kaito memandang mereka dengan pandangan dingin. “Siapa yang menghantar kamu?”
+
+Salah seorang yang separuh sedar itu tersenyum sinis. “Kalau kamu fikir Mikoto akan selamat… kamu silap besar. Dia sudah menjadi milik ‘tuan’ kami.”
+
+Renji menghentak gagang pedangnya ke tanah, menahan marah. Yui mengetap bibir, menunduk menahan perasaan.
+
+Renji menoleh ke arah semua. “Kita kena bergerak. Kalau mereka dihantar, akan ada lebih ramai lagi yang menyusul.”
+
+Perjalanan disambung tanpa henti hingga senja. Akhirnya, mereka tiba di kaki bukit yang tertera pada peta. Dari bawah, kelihatan sebuah kuil kuno separuh runtuh, diterangi cahaya bulan sabit yang kini mula muncul di langit malam.
+
+Yui menggenggam loket Mikoto dan peta itu erat-erat. “Kuil Bulan Sabit… kita dah sampai.”
+
+Tetapi Kaito tahu, kedatangan mereka hanyalah permulaan. Di dalam kuil itu, menunggu jawapan… atau perangkap terakhir.
+</p>
+    </div>
+
+    <div id="bab15" class="chapter">
+      <h2>Bab 15 – Pintu Ke Dunia Roh</h2>
+      <p>Malam menyelimuti bukit itu sepenuhnya. Bulan sabit tergantung rendah di langit, cahayanya memantul pada batu-batu lumut yang mengelilingi Kuil Bulan Sabit. Angin malam membawa bisikan halus, seolah-olah suara roh purba yang memanggil mereka untuk masuk.
+
+Kaito berdiri di hadapan pintu utama kuil yang reput, mengangkat tangannya ke permukaan kayu hitam yang diukir dengan simbol bulan sabit dan mata. “Segel ini… ia hidup.”
+
+Renji meneliti ukiran itu, jarinya meraba-raba garis simbol. “Ia memerlukan kunci jiwa — seseorang yang mempunyai ikatan darah dengan orang yang kita cari.”
+
+Semua mata memandang Yui. Dia terkejut, tetapi dalam hati sudah tahu bahawa ini adalah sebab Mikoto meninggalkan peta kepadanya.
+
+Dengan tangan bergetar, Yui mengeluarkan loket Mikoto. Dia menekan loket itu ke simbol di pintu. Sejenak tiada yang berlaku, kemudian cahaya perak menyebar dari ukiran, membentuk lingkaran cahaya yang berputar.
+
+“Bersedia,” kata Renji, memegang pedangnya.
+
+Pintu kuil berderit terbuka, mendedahkan lorong gelap yang dipenuhi kabus. Langkah mereka bergema ketika memasuki ruang yang lebih dalam, dan perlahan-lahan mereka sedar bahawa ini bukan lagi dunia manusia.
+
+Mereka berdiri di hadapan jambatan batu yang melintasi sungai hitam berkilau. Di seberang jambatan, seorang gadis berdiri — rambut panjang hitamnya terurai, matanya kosong. Mikoto.
+
+“Yui…” suaranya serak, seolah-olah datang dari jauh.
+
+Yui mahu berlari, tetapi Renji menghalang. “Bukan dia yang kita kenal. Roh di sini telah mengikatnya.”
+
+Tiba-tiba, kabus membentuk sosok tinggi berjubah putih dengan topeng tanpa wajah. Suaranya bergema di udara:
+“Siapa pun yang ingin membawa jiwa ini kembali… mesti menggantikan dirinya di dunia roh.”
+
+Semua terdiam. Haru menggenggam tali panahnya, Kaito menegakkan tubuh, Yui menggigil.
+
+“Aku akan lakukan,” kata Yui akhirnya, air mata menitis. “Kalau itu satu-satunya cara—”
+
+“Tidak!” potong Kaito. “Kita datang bersama, dan kita akan pulang bersama.”
+
+Renji memejam mata, membisikkan mantera kuno. Angin ribut mula berkumpul, memecahkan kabus. Sosok berjubah putih itu meraung, cuba menahan kuasa Renji, tetapi Haru melepaskan panah bercahaya ke arah topengnya.
+
+Topeng itu retak, dan seketika, cahaya putih memancar, melingkupi Mikoto. Dia jatuh ke lantai, tidak sedarkan diri, tetapi bebas dari ikatan roh.
+
+Kuil itu mula runtuh. Dinding retak, jambatan batu terbelah. Kaito mengangkat Mikoto ke bahunya, dan mereka semua berlari ke arah pintu cahaya yang terbuka di hujung lorong.
+
+Dengan satu lonjakan, mereka melangkah keluar… dan tiba-tiba berada kembali di kaki bukit. Malam yang tadi tegang kini tenang, hanya bunyi cengkerik menemani.
+
+Mikoto membuka matanya perlahan, memandang Yui dengan senyuman lemah. “Kau… kau datang.”
+
+Yui mengangguk, air mata terus mengalir. “Kami janji takkan tinggalkan kau.”
+
+Beberapa hari kemudian, mereka bertujuh duduk di sebuah kedai teh di pinggir bandar. Misteri Kuil Bulan Sabit mungkin telah berakhir, tetapi mereka semua tahu ini hanyalah satu bab dalam perjalanan mereka.
+
+Renji meneguk teh dan berkata perlahan, “Kalau segel kuil itu dibuka… ada kemungkinan roh lain sudah bebas.”
+
+Kaito meletakkan cawan tehnya, memandang mereka semua. “Kalau begitu, kita bersedia.”
+
+Dan di bawah cahaya matahari petang yang hangat, tujuh sahabat itu tersenyum — sedar bahawa persahabatan mereka kini diikat oleh rahsia, bahaya, dan keberanian yang akan kekal selama-lamanya.
+</p>
+    </div>
+  </div>
+</body>
+</html>
